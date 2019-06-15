@@ -6,6 +6,7 @@
 >  - 进入testFloder并且`mkdir src`在src下面touch一个index.js文件
 >  - `webpack --mode=developement`(development开发环境或者production生产环境或者none)
 >  - 指定打包输出`webpack --mode=development ./src/hello.js --output ./dist/hello.js`
+>  - 安装npx`npm install -g npx`,npx用于webpack版本控制；先项目环境看webpack之后才在整个global中找
 >  - 最简单写webpack.config.js
 ```shell
 const path = require('path');
